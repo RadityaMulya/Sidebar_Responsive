@@ -33,10 +33,15 @@ body {
   align-items: center;
 }
 
-.logo_content .logo{
+.logo_content .logo i {
   font-size: 28px;
   margin-right: 5px;
 }
-.logo_content .logo .nama_logo{
-  
+
+.logo_content .logo .nama_logo {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sidebar #btn {
 }
