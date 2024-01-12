@@ -124,4 +124,21 @@ body {
 .sidebar .profile_content .profile {
   position: relative;
   padding: 10px 6px;
+  height: 60px;
+}
+
+.profile_content .profile .profile_details {
+  display: flex;
+  align-items: center;
+}
+
+.profile .profile_details img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.profile .profile_details .name_job {
+  margin-left: 10px;
 }
