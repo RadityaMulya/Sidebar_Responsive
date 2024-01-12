@@ -75,11 +75,13 @@ body {
   align-items: center;
   text-decoration: solid;
   transition: all 0.5s ease;
+  border-radius: 14px;
 }
 
 .sidebar ul li a:hover {
   color: #0f0e19;
   background: #fff;
+  text-align: center;
 }
 
 .sidebar ul li a i{
