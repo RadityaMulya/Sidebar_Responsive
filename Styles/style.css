@@ -84,11 +84,12 @@ body {
   text-align: center;
 }
 
-.sidebar ul li a i{
+.sidebar ul li i{
   height: 50px;
   min-width: 50px;
   border-radius: 14px;
   line-height: 50px;
+  text-align: center;
 }
 
 .sidebar ul li input {
@@ -97,15 +98,19 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  border-radius: 12px;
+  border-radius: 14px;
   outline: none;
   border: none;
   background: #22203b;
-  padding-left: 18px;
+  padding-left: 50px;
+  font-size: 14px;
   color: #fff;
 }
 
-.sidebar ul li .bx-search {
-  
+.sidebar ul li .bx-search-alt {
+  position: absolute;
+  z-index: 99;
+  color: #fff;
+  font-size: 22px;
 }
 
