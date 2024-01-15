@@ -142,3 +142,12 @@ body {
 .profile .profile_details .name_job {
   margin-left: 10px;
 }
+
+.profile .profile_details .name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile .profile_details .job {
+  font-size: 12px;
+}
