@@ -177,3 +177,17 @@ body {
   color: black;
   margin: 15px;
 }
+
+.sidebar ul li .tooltip{
+  position: absolute;
+  left: 122px;
+  top: 100%;
+  transform :translateY(-120%);
+  border-radius: 6px;
+  height: 35px;
+  width: 122px;
+  background: #fff;
+  line-height: 35px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
