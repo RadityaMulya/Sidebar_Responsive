@@ -20,9 +20,10 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  width: 240px;
+  width: 65px;
   background: #0f0e19;
   padding: 6px 14px;
+  transition: all 0.5 ease;
 }
 
 .sidebar .logo_content .logo {
@@ -31,6 +32,8 @@ body {
   height: 50px;
   width: 100%;
   align-items: center;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .logo_content .logo i {
@@ -46,7 +49,7 @@ body {
 .sidebar #btn {
   position: absolute;
   color: #fff;
-  left: 90%;
+  left: 45%;
   top: 6px;
   font-size: 20px;
   height: 50px;
@@ -199,3 +202,17 @@ body {
   opacity: 1;
   transition: all 0.5s ease;
 }
+
+.sidebar .active{
+  width: 240px;
+}
+
+.sidebar .active .logo_content .logo {
+  opacity: 1;
+  pointer-events: none;
+}
+
+.sidebar .active #btn{
+  left: 90%;
+}
+
