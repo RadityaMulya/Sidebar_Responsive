@@ -119,13 +119,14 @@ body {
   color: #fff;
   bottom: 0;
   left: 0;
-  width: 75%;
+  width: 100%;
 }
 
-.sidebar .profile_content .profile {
+.sidebar .profile_content .profile  {
   position: relative;
   padding: 10px 6px;
   height: 60px;
+  background: #231d52;
 }
 
 .profile_content .profile .profile_details {
@@ -155,11 +156,17 @@ body {
 
 .profile #log_out{
   position: absolute;
-  left: 114%;
+  left: 90%;
   bottom: 14px;
-  transform: translateX(-25%);
+  transform: translateX(-50%);
   min-width: 20px;
   line-height: 20px;
   font-size: 20px;
   border-radius: 20px;
+}
+
+.home{
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 240px);
 }
