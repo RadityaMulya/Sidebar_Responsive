@@ -119,6 +119,7 @@ body {
   color: #fff;
   bottom: 0;
   left: 0;
+  width: 75%;
 }
 
 .sidebar .profile_content .profile {
@@ -150,4 +151,13 @@ body {
 
 .profile .profile_details .job {
   font-size: 12px;
+}
+
+.profile #log_out{
+  position: absolute;
+  left: 114%;
+  bottom: 5px;
+  transform: translateX(-20%);
+  min-width: 20px;
+  line-height: 20px;
 }
