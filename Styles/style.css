@@ -156,9 +156,10 @@ body {
 .profile #log_out{
   position: absolute;
   left: 114%;
-  bottom: 5px;
-  transform: translateX(-20%);
+  bottom: 14px;
+  transform: translateX(-25%);
   min-width: 20px;
   line-height: 20px;
-  font-size: 25px;
+  font-size: 20px;
+  border-radius: 20px;
 }
